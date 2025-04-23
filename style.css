@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: #8A51FC;
+}
+
+#img-logo{
+    width: 200px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    border-radius: 20px;
+    background: #F4F4F4;
+    width: 375px;
+    height: 712px;
+}
+
+.container-converter-de {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 44px 24px 0 24px;
+}
+
+#converter-de{
+    display: block;
+    border-radius: 4px;
+    border: 1px solid #BBBBBB;
+    background: #FFFFFF;
+    width: 327px;
+    height: 48px;
+    appearance: none;
+    padding: 15px 0 15px 18px;
+    margin-top: 6px;
+    color: #555555;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.container-converter-para{
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 24px 24px 0 24px;
+}
+
+#converter-para {
+    display: block;
+    border-radius: 4px;
+    border: 1px solid #BBBBBB;
+    background: #FFFFFF;
+    width: 327px;
+    height: 48px;
+    appearance: none;
+    padding: 15px 0 15px 18px;
+    color: #555555;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+.valor-input {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 24px 24px 0 24px;
+}
+
+input {
+    display: block;
+    border-radius: 4px;
+    border: 1px solid #BBBBBB;
+    background: #FFFFFF;
+    width: 327px;
+    height: 48px;
+    padding: 15px 0 15px 18px;
+    color: #555555;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 4px;
+    appearance: none;
+}
+
+button{
+    margin: 24px 24px 0 24px;
+    background: #772FD3;
+    border: none;
+    border-radius: 5px;
+    width: 327px;
+    height: 48px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.5;
+}
+
+.div-moedas{
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    height: 276px;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    margin: 36px 24px 23px;
+    padding: 13px 0 13px 0;
+}
+
+#img-moeda1{
+    width: 44px;
+    height: 44px;
+}
+
+#seta{
+    width: 35px;
+    height: 49.939px;
+    margin: 13px 0;
+}
+#img-moeda2{
+    width: 44px;
+    height: 44px;
+}
+.moeda{
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+}
+.valor{
+    color: #555555;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+@media screen and (max-width: 450px) {
+    #img-logo{
+        width: 115px;
+    }
+
+    section {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #img-logo{
+        width: 115px;
+    }
+
+    section {
+        height: 650px;
+        width: 355px;
+    }
+
+    .container-converter-de {
+        margin: 30px 14px 0 14px;
+    }
+
+    .container-converter-para {
+        margin: 15px 14px 0 14px;
+    }
+
+    .valor-input{
+        margin: 15px 14px 0 14px;
+    }
+
+    #botao-converter{
+        margin: 15px 14px 0 14px;
+    }
+    
+    .div-moedas{
+        margin: 15px 14px 0 14px;
+    }
+}
