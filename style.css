@@ -5,10 +5,23 @@
     font-family: "Roboto", sans-serif;
 }
 
-body {
-    background-image: url(./img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.manutencao{
+    text-align: center;
+}
+.manutencao1{
+    font-size: 3.5em;
+}
+
+.manutencao2{
+    margin-top: 1em;
+    font-size: 1.5em;
 }
 
 #img-logo{
