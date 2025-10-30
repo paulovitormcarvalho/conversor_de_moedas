@@ -21,7 +21,7 @@ Aqui eu coloquei em prática várias coisas que venho aprendendo:
 - Adicionei **responsividade** pra funcionar bem em qualquer tela  
 - Organizei melhor o HTML, CSS e JS  
 - Tornei a experiência de uso mais intuitiva  
-- Criei lógica para converter valores com base em taxas reais simuladas
+- Criei lógica para converter valores com base em taxas reais usando uma API
 
 ---
 
